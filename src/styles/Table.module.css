@@ -1,0 +1,54 @@
+table {
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #64748b;
+  color: #64748b;
+}
+th,
+td {
+  padding: 10px;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.kolom1 {
+  /* position: absolute; */
+  width: 53px;
+  height: 47px;
+  text-align: center;
+}
+
+.kolom2 {
+  /* position: absolute; */
+  width: 152px;
+  height: 47px;
+  text-align: center;
+}
+
+.display {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #06d6a0;
+}
+
+.display1 {
+  /* position: absolute; */
+  width: 53px;
+  height: 47px;
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #06d6a0;
+}

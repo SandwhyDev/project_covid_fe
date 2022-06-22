@@ -1,0 +1,83 @@
+.containerCard {
+  width: 900px;
+  height: 400px;
+  background: rgb(186, 186, 186);
+  background: linear-gradient(
+    263deg,
+    rgba(186, 186, 186, 1) 0%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 30px 50px;
+}
+.left {
+  width: 30%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins";
+}
+.judul {
+  line-height: 3rem;
+}
+.subtitle {
+  font-size: 3.052rem;
+  font-weight: 900;
+}
+.time {
+  font-weight: 1000;
+}
+.username {
+  font-weight: 1000;
+}
+.right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  justify-content: space-between;
+  gap: 20px;
+  /* background-color: red; */
+}
+.confirmed {
+  font-size: 2rem;
+}
+.nilaiConfirmed {
+  font-weight: 900;
+}
+.judulConfirmed {
+  font-size: 1.2rem;
+}
+
+.nilaiRecovered {
+  font-size: 2rem;
+  color: green;
+  font-weight: 900;
+}
+.nilaiDeaths {
+  font-size: 2rem;
+  color: red;
+  font-weight: 900;
+}
+.rangeRecovered {
+  width: 100%;
+  padding: 5px;
+  /* background-color: green; */
+  color: white;
+}
+.rangeDeaths {
+  width: 100%;
+  padding: 5px;
+  /* background-color: red; */
+  color: white;
+}
