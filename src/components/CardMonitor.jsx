@@ -1,10 +1,6 @@
 import React from "react";
 import styles from "../styles/CardMonitor.module.css";
-const CardMonitor = ({
-  judul = "judul",
-  nominal = 5005646,
-  color = "black",
-}) => {
+const CardMonitor = ({ judul = "judul", nominal = 0, color = "black" }) => {
   var bilangan = nominal;
   var number_string = bilangan.toString();
   var sisa = number_string.length % 3;
@@ -18,7 +14,7 @@ const CardMonitor = ({
 
   return (
     <div className={styles.cardContainer}>
-      <h2 >{judul}</h2>
+      <h2>{judul}</h2>
       <h1 className={styles.display} style={{ color: color }}>
         {rupiah}
       </h1>
